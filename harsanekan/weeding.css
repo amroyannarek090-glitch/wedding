@@ -418,7 +418,7 @@ margin-top: 20px;
   font-family: 'Noto Serif Armenian', serif;
   font-weight: 400;                  /* 300-ից դարձրինք 400՝ ավելի հստակության համար */
   font-style: italic;                
-  font-size: 18px;
+  font-size: 17px;
   margin-top: -22px;
   color: white;
   /* ԿԱՏԱՐՅԱԼ ԲԱԼԱՆՍԱՎՈՐՎԱԾ ՍՏՎԵՐ */
@@ -431,7 +431,7 @@ margin-top: 20px;
   font-family: 'Noto Serif Armenian', serif;
   font-weight: 400;                  /* 300-ից դարձրինք 400՝ ավելի հստակության համար */
   font-style: italic;                
-  font-size: 18px;
+  font-size: 17px;
   margin-top:-22px;
   color: white;
   margin-left: 20px;
@@ -441,20 +441,22 @@ margin-top: 20px;
   letter-spacing: 0.5px;
 }
 .yes{
-	width: 13px;
-	height: 13px;
+	width: 12px;
+	height: 12px;
 	border: 1.5px solid white;
 	border-radius: 50%;
 	background: none;
-	margin-top: 12px;
+     flex-shrink: 0;           /* Թույլ չի տալիս հեռախոսով սեղմվել */
+    cursor: pointer;
 }
 .no{
-	width: 13px;
-	height: 13px;
+	width: 12px;
+	height: 12px;
 	border: 1.5px solid white;
 	border-radius: 50%;
 	background: none;
-	margin-top: 7px;
+     flex-shrink: 0;           /* Թույլ չի տալիս հեռախոսով սեղմվել */
+    cursor: pointer;
 }
 .guest-input {
   width: 300px;
@@ -578,7 +580,24 @@ margin-top: 20px;
 .pahel{
   width: 80%;
   height: auto;
-  border: 1px solid white;
+  border: 0px solid white;
   flex-direction: column;
  align-items: flex-start;
+}
+/* Սա կոճակն ու տեքստը կպահի կողք կողքի ու կկենտրոնացնի */
+.status-option {
+    display: flex;
+    align-items: center;      /* Կոճակն ու տեքստը բերում է նույն գծի վրա */
+    justify-content:flex-start;   /* Կենտրոնացնում է էկրանի մեջտեղում */
+    width: 100%;
+    gap: 6px;
+    border: 0px solid white;
+   
+}
+
+
+/* Հեռացնում ենք հին ավելորդ outst-ները տեքստից */
+.pleace3, .pleace4 {
+    margin: 0 !important;     
+    text-align: left;
 }
