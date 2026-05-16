@@ -4,7 +4,7 @@
     border: 1px solid transparent;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    
+     margin: 0 auto;   
     /* Эффект роскошного золотисто-кремового перелива */
     background-image: 
         linear-gradient(135deg, 
@@ -56,6 +56,7 @@
     allign-items:center	;
   justify-content: 	center	;
   flex-direction: 	column	;
+   margin: 0 auto;   
   background-color: rgba(251, 249, 246, 0.85); 
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
@@ -94,6 +95,7 @@
 .weeding3 {
     width: 430px;
     height: 600px;
+     margin: 0 auto;   
     border: 1px solid transparent;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -185,6 +187,7 @@
    background-size: 100% 100%;
    display: flex	;
 align-items: center;
+ margin: 0 auto;   
   flex-direction: 	column	;
   background-color: rgba(251, 249, 246, 0.85); 
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
@@ -240,6 +243,30 @@ text-decoration: none;
 	font-size: 22px;
 	text-align: center;
 	margin-top: 25px;
+}
+.weeding5 {
+  width: 100%;            /* Հեռախոսի վրա ավտոմատ կընդունի էկրանի լայնությունը */
+  max-width: 430px;       /* Բայց նոթբուքի վրա չի թողնի 430px-ից մեծանա */
+  min-height: 700px;      /* Ֆիքսված height-ի փոխարեն դնում ենք min-height */
+  height: auto;           /* Թույլ է տալիս, որ բլոկը ճկվի ու երկարի ըստ տեքստի */
+  margin: 0 auto;         /* Կենտրոնացնում է բլոկը էկրանի մեջտեղում */
+  border: 0px solid black;
+  background-size: cover; /* Փոխեցինք cover, որ նկարը հեռախոսով չտափակվի */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(251, 249, 246, 0.85); 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  background-image: 
+    linear-gradient(135deg, 
+        rgba(54, 40, 26, 0.45) 0%,      
+        rgba(244, 231, 214, 0.25) 20%,  
+        rgba(74, 58, 41, 0.35) 40%,     
+        rgba(255, 248, 235, 0.3) 60%,   
+        rgba(61, 46, 32, 0.4) 80%,      
+        rgba(240, 220, 195, 0.2) 100%   
+    ), 
+    url(event.jpg); 
 }
 .weeding5 {
   width: 430px;
@@ -332,35 +359,41 @@ margin-top: 20px;
 
 
 .weeding6 {
-    width: 430px;
-    height: 700px;
+    width: 100%;                  /* Հեռախոսով ավտոմատ կհարմարվի էկրանի չափին */
+    max-width: 430px;             /* Նոթբուքով չի թողնի 430px-ից մեծանա */
+    min-height: 700px;            /* Ֆիքսված height-ի փոխարեն դնում ենք min-height */
+    height: auto;                 /* Բլոկը կերկարի ըստ ներսի տեքստերի ու input-ների */
+    margin: 0 auto;   
     border: 1px solid transparent;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;       /* Փոխեցինք cover, որ ֆոնի նկարը հեռախոսով չտափակվի */
     
-    /* 1. Թուլացրինք գույների խտությունը, որ նկարի դետալները հստակ երևան */
+    /* Ավելացնում ենք Flexbox, որ input-ները հեռախոսով իրար տակ սիրուն շարվեն */
+    display: flex;
+    flex-direction: column;
+    align-items: center;          /* Կենտրոնացնում է input-ներն ու կոճակները */
+    padding: 20px;                /* Ներքին ազատ տարածություն է տալիս, որ էկրանին չկպչեն */
+
     background-image: 
         linear-gradient(135deg, 
-            rgba(54, 40, 26, 0.4) 0%,      /* Մեղմ տաք շոկոլադ */
-            rgba(244, 231, 214, 0.1) 20%,  /* Շատ թեթև ոսկեգույն փայլ */
-            rgba(74, 58, 41, 0.3) 40%,     /* Մեղմ ստվեր */
+            rgba(54, 40, 26, 0.4) 0%,      
+            rgba(244, 231, 214, 0.1) 20%,  
+            rgba(74, 58, 41, 0.3) 40%,     
             rgba(255, 248, 235, 0.1) 60%,  
             rgba(61, 46, 32, 0.35) 80%,    
             rgba(240, 220, 195, 0.05) 100%
         ), 
         url(hyurer.png);
 
-    /* 2. ՓՈԽԵՑԻՆՔ ՌԵԺԻՄԸ. Overlay-ը թույլ չի տալիս, որ նկարի մասերը կորչեն */
     background-blend-mode: overlay; 
-
-    /* 3. Նրբորեն բարձրացնում ենք կոնտրաստը առանց նկարը լրիվ մթնեցնելու */
     filter: contrast(1.2) brightness(0.95); 
 }
+
 .pleace {
   font-family: 'Noto Serif Armenian', serif;
   font-weight: 400;                  /* 300-ից դարձրինք 400՝ ավելի հստակության համար */
   font-style: italic;                
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   margin-top: 25px;
   color: white;
@@ -376,9 +409,8 @@ margin-top: 20px;
   font-style: italic;                
   font-size: 18px;
   margin-top: 45px;
-margin-left: 33px;
   color: white;
-
+  margin-left: -75px;
   /* ԿԱՏԱՐՅԱԼ ԲԱԼԱՆՍԱՎՈՐՎԱԾ ՍՏՎԵՐ */
   text-shadow: 1px 1px 2px rgba(40, 30, 20, 0.6);
   
@@ -390,10 +422,9 @@ margin-left: 33px;
   font-weight: 400;                  /* 300-ից դարձրինք 400՝ ավելի հստակության համար */
   font-style: italic;                
   font-size: 18px;
-  margin-top: -25px;
-margin-left:55px;
+  margin-top: -22px;
   color: white;
-
+margin-left: -33px;
   /* ԿԱՏԱՐՅԱԼ ԲԱԼԱՆՍԱՎՈՐՎԱԾ ՍՏՎԵՐ */
   text-shadow: 1px 1px 2px rgba(40, 30, 20, 0.6);
   
@@ -405,32 +436,31 @@ margin-left:55px;
   font-weight: 400;                  /* 300-ից դարձրինք 400՝ ավելի հստակության համար */
   font-style: italic;                
   font-size: 18px;
-  margin-top:-25px;
-margin-left: 55px;
+  margin-top:-22px;
   color: white;
-
+margin-left: 70px;
   /* ԿԱՏԱՐՅԱԼ ԲԱԼԱՆՍԱՎՈՐՎԱԾ ՍՏՎԵՐ */
   text-shadow: 1px 1px 2px rgba(40, 30, 20, 0.6);
   
   letter-spacing: 0.5px;
 }
 .yes{
-	width: 18px;
-	height: 18px;
+	width: 17px;
+	height: 17px;
 	border: 1.5px solid white;
 	border-radius: 50%;
 	background: none;
-	margin-left: 28px;
+  margin-left: -265px;
 	margin-top: 12px;
 }
 .no{
-	width: 18px;
-	height: 18px;
+	width: 17px;
+	height: 17px;
 	border: 1.5px solid white;
 	border-radius: 50%;
 	background: none;
-	margin-left: 28px;
 	margin-top: 7px;
+  margin-left: -265px;
 }
 .guest-input {
   width: 300px;
@@ -482,25 +512,22 @@ margin-left: 55px;
 
 .in-name {
   /* Օրինակ՝ կարող եք տալ առանձին margin կամ դիրք */
-  margin-top: 80px; 
-   margin-left: 65px; 
+  margin-top: 70px; 
+   text-align: center; 
 }
 
 .in-count {
   /* Քանակի input-ը կարող եք լրիվ ուրիշ տեղ տանել */
-  margin-top: 20px; 
-   margin-left: 65px; 
+   text-align: center;
+   margin-top: 20px;
 }
 /* ՄԵԿՆԱԲԱՆՈՒԹՅԱՆ ԱՌԱՆՁԻՆ ՈՃԸ ԵՎ ԴԻՐՔԸ */
 .in-comment {
-  position: absolute;
-  top: 550px;        /* Տեղափոխում է դաշտը ավելի ներքև (փոխեք ըստ ձեր դիզայնի) */
-  left: 65px;        /* Ձախից հեռավորությունը (փոխեք ըստ ձեր դիզայնի) */
+  margin-top: 20px;
   height: 80px;      /* Մաղթանքի դաշտի բարձրությունը */
   padding: 10px;     /* Ներսից թեթև հեռավորություն տեքստի համար */
   resize: none;      /* Թույլ չի տալիս հյուրին ձեռքով խախտել չափսերը */
-  text-align: left;  /* Երկար տեքստի դեպքում ձախից գրվելը ավելի սիրուն է */
-  margin-top: -115px;
+  text-align: center;  /* Երկար տեքստի դեպքում ձախից գրվելը ավելի սիրուն է */
 }
 
 .submit-btn {
