@@ -1,0 +1,626 @@
+.weeding {
+    width: 430px;
+    height: 600px;
+    border: 1px solid transparent;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+     margin: 0 auto;   
+    /* Эффект роскошного золотисто-кремового перелива */
+    background-image: 
+        linear-gradient(135deg, 
+            rgba(54, 40, 26, 0.45) 0%,      /* Глубокий благородный шоколадно-золотой */
+            rgba(244, 231, 214, 0.25) 20%,  /* Мягкий золотистый блик */
+            rgba(74, 58, 41, 0.35) 40%,     /* Теплая тень */
+            rgba(255, 248, 235, 0.3) 60%,   /* Свечение шампанского */
+            rgba(61, 46, 32, 0.4) 80%,      /* Мягкое затемнение */
+            rgba(240, 220, 195, 0.2) 100%   /* Финальный теплый тон */
+        ), 
+        url(weeding.png); /* Ваше фото остается основой */
+}
+.Danielname{
+	  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 65px;
+  margin-left: 245px;
+  margin-top: 300px;
+}
+.and{
+	  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 60px;
+   margin-left:190px;
+   margin-top: -30px;
+}
+.Manename{
+	  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 67px;
+  margin-left: 65px;
+  margin-top: -35px;
+}
+
+.weeding2 {
+    width: 430px;
+    height: 290px;
+    border: 0px solid black;
+   background: url(textimage.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+    display: 	flex	;
+    allign-items:center	;
+  justify-content: 	center	;
+  flex-direction: 	column	;
+   margin: 0 auto;   
+  background-color: rgba(251, 249, 246, 0.85); 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+/* Google Fonts-ից ներբեռնում ենք էլեգանտ հայկական տառատեսակներ */
+@import url('https://googleapis.com');
+
+/* Գլխավոր կոնտեյների էլեգանտ ձևավորումը */
+
+/* Վերնագրի (Կոչականի) սթայլը՝ ԹԵՔ */
+.weeding2 .title {
+  font-family: 'GfMardiros Script', 'Noto Serif Armenian', serif;
+  font-weight: 450;
+  font-style: italic;                /* Դարձնում է տեքստը թեք */
+  font-size: clamp(20px, 5vw, 34px); 
+  color: black;                    /* Մեղմ ոսկեգույն */
+  margin-bottom: 35px;
+  letter-spacing: 0.5px;
+  line-height: 1.4;
+  text-align: 			center	;
+}
+
+/* Հիմնական տեքստի սթայլը՝ ԹԵՔ */
+.weeding2 .maintext {
+  font-family: 'Noto Serif Armenian', serif;
+  font-weight: 300;                  
+  font-style: italic;                /* Դարձնում է տեքստը թեք */
+  font-size: 15.5px;
+  color: black	;     
+  max-width: 330px;               /* Մեղմ մուգ շոկոլադագույն */
+  line-height: 1.5;                  /* Թեք տառերի դեպքում տողերի արանքը մի փոքր ավելի ենք մեծացնում */
+  text-align: center	;
+  margin-left: 	45px;
+}
+
+
+.weeding3 {
+    width: 430px;
+    height: 600px;
+     margin: 0 auto;   
+    border: 1px solid transparent;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    /* Эффект роскошного золотисто-кремового перелива */
+    background-image: 
+        linear-gradient(135deg, 
+            rgba(54, 40, 26, 0.45) 0%,      /* Глубокий благородный шоколадно-золотой */
+            rgba(244, 231, 214, 0.25) 20%,  /* Мягкий золотистый блик */
+            rgba(74, 58, 41, 0.35) 40%,     /* Теплая тень */
+            rgba(255, 248, 235, 0.3) 60%,   /* Свечение шампанского */
+            rgba(61, 46, 32, 0.4) 80%,      /* Мягкое затемнение */
+            rgba(240, 220, 195, 0.2) 100%   /* Финальный теплый тон */
+        ), 
+        url(savethedate.png); /* Ваше фото остается основой */
+}
+
+.save{
+    font-family: "Playball", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 100px;
+  margin-left: 165px;
+  margin-top: 50px;
+  letter-spacing: 	2px;
+
+  text-shadow: 
+    2px 2px 0px rgba(0, 0, 0, 0.1),   /* Очень тонкий контур для четкости */
+    4px 4px 8px rgba(0, 0, 0, 0.3),   /* Основная мягкая тень */
+    0px 0px 15px rgba(0, 0, 0, 0.2);  /* Глубокое свечение вокруг, чтобы отделить от фона */
+}
+.the{
+   font-family: "Playball", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 70px;
+   margin-left:200px;
+   margin-top: -30px;
+  letter-spacing: 	2px;
+
+   text-shadow: 
+    2px 2px 0px rgba(0, 0, 0, 0.1),   /* Очень тонкий контур для четкости */
+    4px 4px 8px rgba(0, 0, 0, 0.3),   /* Основная мягкая тень */
+    0px 0px 15px rgba(0, 0, 0, 0.2);  /* Глубокое свечение вокруг, чтобы отделить от фона */
+}
+.date{
+   font-family: "Playball", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 100px;
+  margin-left: 105px;
+  margin-top: -55px;
+  letter-spacing: 	2px;
+  text-shadow: 
+    2px 2px 0px rgba(0, 0, 0, 0.1),   /* Очень тонкий контур для четкости */
+    4px 4px 8px rgba(0, 0, 0, 0.3),   /* Основная мягкая тень */
+    0px 0px 15px rgba(0, 0, 0, 0.2);  /* Глубокое свечение вокруг, чтобы отделить от фона */
+}
+.datenumber{
+    font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 50px;
+  text-align: 	center	;
+   margin-top: 15px;
+   letter-spacing: 	2px;
+}
+.text2{
+    font-family: "Cinzel Decorative", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-style: italic; 
+  color: white;
+  font-size: 18px;
+  text-align: 	center	;
+   margin-top: 55px;
+   letter-spacing: 	0.4px;
+}
+
+
+.weeding4 {
+  width: 430px;
+    height: 800px;
+    border: 0px solid black;
+   background-size: 100% 100%;
+   display: flex	;
+align-items: center;
+ margin: 0 auto;   
+  flex-direction: 	column	;
+  background-color: rgba(251, 249, 246, 0.85); 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      background-image: 
+        linear-gradient(135deg, 
+            rgba(54, 40, 26, 0.45) 0%,      /* Глубокий благородный шоколадно-золотой */
+            rgba(244, 231, 214, 0.25) 20%,  /* Мягкий золотистый блик */
+            rgba(74, 58, 41, 0.35) 40%,     /* Теплая тень */
+            rgba(255, 248, 235, 0.3) 60%,   /* Свечение шампанского */
+            rgba(61, 46, 32, 0.4) 80%,      /* Мягкое затемнение */
+            rgba(240, 220, 195, 0.2) 100%   /* Финальный теплый тон */
+        ), 
+        url(event.jpg); /* Ваше фото остается основой */
+}
+.schedule{
+	    font-family: "Cinzel Decorative", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-style: italic; 
+  color: black	;
+  font-size:30px;
+  text-align: 	center	;
+   letter-spacing: 	0.5px;
+   margin-top: 	45px;
+}
+.harsnkar{
+	width: 100px;
+	height: 100px;
+	margin-top: 30px;
+
+}
+.harsijam
+{
+	  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 25px;
+}
+.tun{
+text-decoration: none;
+}
+.harsitun{
+	width: 320px;
+	height: 220px;
+	border-radius: 8px;
+}
+.psakadrutyun{
+	  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 22px;
+	text-align: center;
+	margin-top: 25px;
+}
+.weeding5 {
+  width: 100%;            /* Հեռախոսի վրա ավտոմատ կընդունի էկրանի լայնությունը */
+  max-width: 430px;       /* Բայց նոթբուքի վրա չի թողնի 430px-ից մեծանա */
+  min-height: 700px;      /* Ֆիքսված height-ի փոխարեն դնում ենք min-height */
+  height: auto;           /* Թույլ է տալիս, որ բլոկը ճկվի ու երկարի ըստ տեքստի */
+  margin: 0 auto;         /* Կենտրոնացնում է բլոկը էկրանի մեջտեղում */
+  border: 0px solid black;
+  background-size: cover; /* Փոխեցինք cover, որ նկարը հեռախոսով չտափակվի */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(251, 249, 246, 0.85); 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  background-image: 
+    linear-gradient(135deg, 
+        rgba(54, 40, 26, 0.45) 0%,      
+        rgba(244, 231, 214, 0.25) 20%,  
+        rgba(74, 58, 41, 0.35) 40%,     
+        rgba(255, 248, 235, 0.3) 60%,   
+        rgba(61, 46, 32, 0.4) 80%,      
+        rgba(240, 220, 195, 0.2) 100%   
+    ), 
+    url(event.jpg); 
+}
+.weeding5 {
+  width: 430px;
+    height: 700px;
+    border: 0px solid black;
+   background-size: 100% 100%;
+   display: flex	;
+align-items: center;
+  flex-direction: 	column	;
+  background-color: rgba(251, 249, 246, 0.85); 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      background-image: 
+        linear-gradient(135deg, 
+            rgba(54, 40, 26, 0.45) 0%,      /* Глубокий благородный шоколадно-золотой */
+            rgba(244, 231, 214, 0.25) 20%,  /* Мягкий золотистый блик */
+            rgba(74, 58, 41, 0.35) 40%,     /* Теплая тень */
+            rgba(255, 248, 235, 0.3) 60%,   /* Свечение шампанского */
+            rgba(61, 46, 32, 0.4) 80%,      /* Мягкое затемнение */
+            rgba(240, 220, 195, 0.2) 100%   /* Финальный теплый тон */
+        ), 
+        url(event.jpg); /* Ваше фото остается основой */
+}
+.psakadrutyun1{
+	  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 32px;
+	text-align: center;
+	margin-top: 25px;
+}
+.psakadrutyun2{
+	  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 5px;
+}
+.psakadrutyun3{
+	  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+	font-size:20px;
+	text-align: center;
+	margin-top: 3px;
+}
+.ekexeci{
+text-decoration: none;
+margin-top: 20px;
+}
+.psakadrutyun4 {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 15px;
+  
+  /* Ժամանակը դարձրինք 6 վայրկյան, իսկ 'animation-duration: 2s'-ը հանեցինք */
+  animation: fadeInOutBlur 6s ease-in-out infinite alternate;
+}
+
+/* ԱՎԵԼԻ ԴԱՆԴԱՂ ՈՒ ՍԱՀՈՒՆ ՑԻԿԼ */
+@keyframes fadeInOutBlur {
+  0% {
+    opacity: 0;
+    filter: blur(8px);
+    transform: scale(0.95); /* Մի քիչ ավելի փոքրացրինք խորության համար */
+  }
+  40% {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1.03); /* Մեղմ առաջ է գալիս (Zoom-in) */
+  }
+  60% {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1.03); /* Երկար մնում է էկրանին առաջ եկած վիճակում */
+  }
+  100% {
+    opacity: 0;
+    filter: blur(8px);
+    transform: scale(0.95); /* Շատ դանդաղ ու սահուն հետ է գնում */
+  }
+}
+.dvinhall{
+text-decoration: none;
+margin-top: 20px;
+}
+
+
+.weeding6 {
+    width: 430px;                  /* Հեռախոսով ավտոմատ կհարմարվի էկրանի չափին */
+    height: 730px;                 /* Բլոկը կերկարի ըստ ներսի տեքստերի ու input-ների */
+    margin: 0 auto;   
+    border: 1px solid transparent;
+    background-repeat: no-repeat;
+    background-size: cover;       /* Փոխեցինք cover, որ ֆոնի նկարը հեռախոսով չտափակվի */
+    
+    /* Ավելացնում ենք Flexbox, որ input-ները հեռախոսով իրար տակ սիրուն շարվեն */
+    display: flex;
+    flex-direction: column;
+    align-items: center;          /* Կենտրոնացնում է input-ներն ու կոճակները */
+    padding: 20px;                /* Ներքին ազատ տարածություն է տալիս, որ էկրանին չկպչեն */
+
+    background-image: 
+        linear-gradient(135deg, 
+            rgba(54, 40, 26, 0.4) 0%,      
+            rgba(244, 231, 214, 0.1) 20%,  
+            rgba(74, 58, 41, 0.3) 40%,     
+            rgba(255, 248, 235, 0.1) 60%,  
+            rgba(61, 46, 32, 0.35) 80%,    
+            rgba(240, 220, 195, 0.05) 100%
+        ), 
+        url(hyurer.png);
+
+    background-blend-mode: overlay; 
+    filter: contrast(1.2) brightness(0.95); 
+}
+
+.pleace {
+  font-family: 'Noto Serif Armenian', serif;
+  font-weight: 400;                  /* 300-ից դարձրինք 400՝ ավելի հստակության համար */
+  font-style: italic;                
+  font-size: 20px;
+  text-align: center;
+  margin-top: 25px;
+  color: white;
+
+  /* ԿԱՏԱՐՅԱԼ ԲԱԼԱՆՍԱՎՈՐՎԱԾ ՍՏՎԵՐ */
+  text-shadow: 1px 1px 2px rgba(40, 30, 20, 0.6);
+  
+  letter-spacing: 0.5px;
+}
+.pleace2 {
+  font-family: 'Noto Serif Armenian', serif;
+  font-weight: 400;                  /* 300-ից դարձրինք 400՝ ավելի հստակության համար */
+  font-style: italic;                
+  font-size: 18px;
+  margin-top: 45px;
+  color: white;
+  /* ԿԱՏԱՐՅԱԼ ԲԱԼԱՆՍԱՎՈՐՎԱԾ ՍՏՎԵՐ */
+  text-shadow: 1px 1px 2px rgba(40, 30, 20, 0.6);
+  
+  letter-spacing: 0.5px;
+}
+
+.pleace3 {
+  font-family: 'Noto Serif Armenian', serif;
+  font-weight: 400;                  /* 300-ից դարձրինք 400՝ ավելի հստակության համար */
+  font-style: italic;                
+  font-size: 17px;
+  margin-top: -22px;
+  color: white;
+  /* ԿԱՏԱՐՅԱԼ ԲԱԼԱՆՍԱՎՈՐՎԱԾ ՍՏՎԵՐ */
+  text-shadow: 1px 1px 2px rgba(40, 30, 20, 0.6);
+  margin-left: 20px;
+  letter-spacing: 0.5px;
+}
+
+.pleace4 {
+  font-family: 'Noto Serif Armenian', serif;
+  font-weight: 400;                  /* 300-ից դարձրինք 400՝ ավելի հստակության համար */
+  font-style: italic;                
+  font-size: 17px;
+  margin-top:-22px;
+  color: white;
+  margin-left: 20px;
+  /* ԿԱՏԱՐՅԱԼ ԲԱԼԱՆՍԱՎՈՐՎԱԾ ՍՏՎԵՐ */
+  text-shadow: 1px 1px 2px rgba(40, 30, 20, 0.6);
+  
+  letter-spacing: 0.5px;
+}
+.yes{
+	width: 14px;
+	height: 14px;
+	border: 1.5px solid white;
+	border-radius: 50%;
+	background: none;
+     flex-shrink: 0;           /* Թույլ չի տալիս հեռախոսով սեղմվել */
+    cursor: pointer;
+}
+.no{
+	width: 14px;
+	height: 14px;
+	border: 1.5px solid white;
+	border-radius: 50%;
+	background: none;
+     flex-shrink: 0;           /* Թույլ չի տալիս հեռախոսով սեղմվել */
+    cursor: pointer;
+}
+.guest-input {
+  width: 300px;
+  height: 32px;
+  border-radius: 17px;
+  background: transparent;
+  text-align: center;
+  font-family: 'Noto Serif Armenian', serif;
+  font-size: 16px;
+  color: white;
+  outline: none;
+  box-sizing: border-box;
+
+  /* Էլեգանտ սպիտակավուն եզրագիծ ու ստվեր */
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 1px 1px 3px rgba(40, 30, 20, 0.4);
+  text-shadow: 1px 1px 2px rgba(40, 30, 20, 0.6);
+  
+  transition: all 0.3s ease;
+}
+
+/* Placeholder-ի Italic ոճը */
+.guest-input::placeholder {
+  font-family: 'Noto Serif Armenian', serif;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 1px 1px 2px rgba(40, 30, 20, 0.5);
+}
+
+/* Focus էֆեկտը սեղմելիս */
+.guest-input:focus {
+  border-color: #ffffff;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2), 1px 1px 3px rgba(40, 30, 20, 0.4);
+}
+
+/* Հեռացնում ենք քանակի input-ի սլաքները */
+.in-count::-webkit-outer-spin-button,
+.in-count::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.in-count {
+  -moz-appearance: textfield;
+}
+
+/* -------------------------------------------------------------
+   2. ԱՌԱՆՁԻՆ ՏԵՂԱՓՈԽԵԼՈՒ ՀԱՏՎԱԾԸ (Այստեղ գրեք ձեր ուզած չափերը)
+   ------------------------------------------------------------- */
+
+.in-name {
+  /* Օրինակ՝ կարող եք տալ առանձին margin կամ դիրք */
+  margin-top: 70px; 
+   text-align: center; 
+}
+
+.in-count {
+  /* Քանակի input-ը կարող եք լրիվ ուրիշ տեղ տանել */
+   text-align: center;
+   margin-top: 20px;
+}
+/* ՄԵԿՆԱԲԱՆՈՒԹՅԱՆ ԱՌԱՆՁԻՆ ՈՃԸ ԵՎ ԴԻՐՔԸ */
+.in-comment {
+  margin-top: 20px;
+  height: 80px;      /* Մաղթանքի դաշտի բարձրությունը */
+  padding: 10px;     /* Ներսից թեթև հեռավորություն տեքստի համար */
+  resize: none;      /* Թույլ չի տալիս հյուրին ձեռքով խախտել չափսերը */
+  text-align: center;
+    /* Երկար տեքստի դեպքում ձախից գրվելը ավելի սիրուն է */
+}
+
+.submit-btn {
+             
+  width: 300px;
+  height: 46px;
+  margin-top: 86px;
+  /* 1. ՄԵՂՄ ՈՒ ԱԶՆՎԱԿԱՆ ԿԼՈՐԱՑՈՒՄ (Border radius) */
+  border-radius: 30px;      /* Հիմա այն կատարյալ համապատասխանում է input-ների ոճին */
+  /* 2. ՍՊԻՏԱԿԱՎՈՒՆ ՆՈՒՐԲ ՖՈՆ */
+  background: rgba(255, 255, 255, 0.12); 
+  border: 1px solid rgba(255, 255, 255, 0.7); 
+  
+  /* 3. ՏԵՔՍՏԻ ՇՔԵՂ ՁԵՎԱՎՈՐՈՒՄ */
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 500;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.9); 
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  cursor: pointer;
+  
+  /* Ստվերներ */
+  text-shadow: 1px 1px 2px rgba(40, 30, 20, 0.5);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15), 1px 1px 3px rgba(40, 30, 20, 0.3);
+  
+  /* Սահուն անցումներ (plavni) */
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* 4. ԷՖԵԿՏՆԵՐ ՄԱՈՒՍԸ ՎՐԱՆ ԲԵՐԵԼԻՍ (Hover) */
+.submit-btn:hover {
+  background: rgba(255, 255, 255, 0.22); 
+  color: #ffffff;                         
+  border-color: #ffffff;                  
+  
+  box-shadow: 
+    0 0 15px rgba(255, 255, 255, 0.35), 
+    0 0 25px rgba(212, 175, 55, 0.15), 
+    1px 1px 3px rgba(40, 30, 20, 0.3);
+    
+  letter-spacing: 3px;                    
+}
+
+/* 5. ԷՖԵԿՏ ՍԵՂՄԵԼԻՍ (Active) */
+.submit-btn:active {
+  transform: scale(0.96);                 
+  background: rgba(255, 255, 255, 0.3);   
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  transition: all 0.1s ease;              
+}
+.pahel{
+  width: 80%;
+  height: auto;
+  border: 0px solid white;
+  flex-direction: column;
+ align-items: flex-start;
+}
+.pahel2{
+  width: 100%;
+  height: auto;
+  border: 0px solid red;
+  flex-direction: column;
+ align-items: flex-start;
+}
+/* Սա կոճակն ու տեքստը կպահի կողք կողքի ու կկենտրոնացնի */
+.status-option {
+    display: flex;
+    align-items: center;      /* Կոճակն ու տեքստը բերում է նույն գծի վրա */
+    justify-content:flex-start;   /* Կենտրոնացնում է էկրանի մեջտեղում */
+    width: 100%;
+    border: 0px solid white;
+   padding: 2px;
+   gap: 17px;
+}
+.status-option1 {
+    display: flex;
+    align-items: center;      /* Կոճակն ու տեքստը բերում է նույն գծի վրա */
+    justify-content:flex-start;   /* Կենտրոնացնում է էկրանի մեջտեղում */
+    width: 100%;
+    border: 0px solid white;
+   padding: 2px;
+   gap: 17px;
+}
+.status-option3 {
+    display: flex;
+    align-items: center;      /* Կոճակն ու տեքստը բերում է նույն գծի վրա */
+    justify-content:flex-start;   /* Կենտրոնացնում է էկրանի մեջտեղում */
+    width: 100%;
+    border:0px solid white;
+   padding: 2px;
+   margin: auto;
+}
+/* Հեռացնում ենք հին ավելորդ outst-ները տեքստից */
+.pleace3, .pleace4 {
+    margin: 0 !important;     
+    text-align: left;
+}
