@@ -580,14 +580,14 @@ margin-top: 20px;
 .pahel{
   width: 80%;
   height: auto;
-  border: 1px solid white;
+  border: 0px solid white;
   flex-direction: column;
  align-items: flex-start;
 }
 .pahel2{
   width: 90%;
   height: auto;
-  border: 1px solid white;
+  border: 0px solid white;
   flex-direction: column;
  align-items: flex-start;
 }
@@ -597,20 +597,30 @@ margin-top: 20px;
     align-items: center;      /* Կոճակն ու տեքստը բերում է նույն գծի վրա */
     justify-content:space-between;   /* Կենտրոնացնում է էկրանի մեջտեղում */
     width: 100%;
-    border: 1px solid white;
+    border: 0px solid white;
    padding: 2px;
-   padding-right: 40px;
+      padding-left: 25px;
+   padding-right: 22px;
 }
 .status-option1 {
     display: flex;
     align-items: center;      /* Կոճակն ու տեքստը բերում է նույն գծի վրա */
     justify-content:space-between;   /* Կենտրոնացնում է էկրանի մեջտեղում */
     width: 100%;
-    border: 1px solid white;
+    border: 0px solid white;
    padding: 2px;
-   padding-right: 138px;
+   padding-left: 25px;
+   padding-right: 122px;
 }
-
+.status-option3 {
+    display: flex;
+    align-items: center;      /* Կոճակն ու տեքստը բերում է նույն գծի վրա */
+    justify-content:space-between;   /* Կենտրոնացնում է էկրանի մեջտեղում */
+    width: 100%;
+    border:0px solid white;
+   padding: 2px;
+   padding-left: 25px;
+}
 /* Հեռացնում ենք հին ավելորդ outst-ները տեքստից */
 .pleace3, .pleace4 {
     margin: 0 !important;     
