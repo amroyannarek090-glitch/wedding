@@ -359,10 +359,8 @@ margin-top: 20px;
 
 
 .weeding6 {
-    width: 100%;                  /* Հեռախոսով ավտոմատ կհարմարվի էկրանի չափին */
-    max-width: 430px;             /* Նոթբուքով չի թողնի 430px-ից մեծանա */
-    min-height: 700px;            /* Ֆիքսված height-ի փոխարեն դնում ենք min-height */
-    height: auto;                 /* Բլոկը կերկարի ըստ ներսի տեքստերի ու input-ների */
+    width: 430px;                  /* Հեռախոսով ավտոմատ կհարմարվի էկրանի չափին */
+    height: 730px;                 /* Բլոկը կերկարի ըստ ներսի տեքստերի ու input-ների */
     margin: 0 auto;   
     border: 1px solid transparent;
     background-repeat: no-repeat;
@@ -527,20 +525,17 @@ margin-left: 70px;
   height: 80px;      /* Մաղթանքի դաշտի բարձրությունը */
   padding: 10px;     /* Ներսից թեթև հեռավորություն տեքստի համար */
   resize: none;      /* Թույլ չի տալիս հյուրին ձեռքով խախտել չափսերը */
-  text-align: center;  /* Երկար տեքստի դեպքում ձախից գրվելը ավելի սիրուն է */
+  text-align: center;
+    /* Երկար տեքստի դեպքում ձախից գրվելը ավելի սիրուն է */
 }
 
 .submit-btn {
-  position: absolute;
-  /* Տեղափոխեցինք 600px, իսկ խանգարող margin-top: -50px-ը հանեցինք */
-  top: 600px;              
-  left: 65px;              
+             
   width: 300px;
   height: 46px;
-  
+  margin-top: 86px;
   /* 1. ՄԵՂՄ ՈՒ ԱԶՆՎԱԿԱՆ ԿԼՈՐԱՑՈՒՄ (Border radius) */
   border-radius: 30px;      /* Հիմա այն կատարյալ համապատասխանում է input-ների ոճին */
-  
   /* 2. ՍՊԻՏԱԿԱՎՈՒՆ ՆՈՒՐԲ ՖՈՆ */
   background: rgba(255, 255, 255, 0.12); 
   border: 1px solid rgba(255, 255, 255, 0.7); 
