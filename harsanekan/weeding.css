@@ -408,7 +408,6 @@ margin-top: 20px;
   font-size: 18px;
   margin-top: 45px;
   color: white;
-  margin-left: -75px;
   /* ԿԱՏԱՐՅԱԼ ԲԱԼԱՆՍԱՎՈՐՎԱԾ ՍՏՎԵՐ */
   text-shadow: 1px 1px 2px rgba(40, 30, 20, 0.6);
   
@@ -422,10 +421,9 @@ margin-top: 20px;
   font-size: 18px;
   margin-top: -22px;
   color: white;
-margin-left: -33px;
   /* ԿԱՏԱՐՅԱԼ ԲԱԼԱՆՍԱՎՈՐՎԱԾ ՍՏՎԵՐ */
   text-shadow: 1px 1px 2px rgba(40, 30, 20, 0.6);
-  
+  margin-left: 20px;
   letter-spacing: 0.5px;
 }
 
@@ -436,29 +434,27 @@ margin-left: -33px;
   font-size: 18px;
   margin-top:-22px;
   color: white;
-margin-left: 70px;
+  margin-left: 20px;
   /* ԿԱՏԱՐՅԱԼ ԲԱԼԱՆՍԱՎՈՐՎԱԾ ՍՏՎԵՐ */
   text-shadow: 1px 1px 2px rgba(40, 30, 20, 0.6);
   
   letter-spacing: 0.5px;
 }
 .yes{
-	width: 17px;
-	height: 17px;
+	width: 13px;
+	height: 13px;
 	border: 1.5px solid white;
 	border-radius: 50%;
 	background: none;
-  margin-left: -265px;
 	margin-top: 12px;
 }
 .no{
-	width: 17px;
-	height: 17px;
+	width: 13px;
+	height: 13px;
 	border: 1.5px solid white;
 	border-radius: 50%;
 	background: none;
 	margin-top: 7px;
-  margin-left: -265px;
 }
 .guest-input {
   width: 300px;
@@ -578,4 +574,11 @@ margin-left: 70px;
   background: rgba(255, 255, 255, 0.3);   
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
   transition: all 0.1s ease;              
+}
+.pahel{
+  width: 80%;
+  height: auto;
+  border: 0px solid white;
+  flex-direction: column;
+
 }
