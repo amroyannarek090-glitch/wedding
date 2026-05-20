@@ -67,7 +67,7 @@
 
 /* Վերնագրի (Կոչականի) սթայլը՝ ԹԵՔ */
 .weeding2 .title {
-  font-family: 'GfMardiros Script', 'Noto Serif Armenian', serif;
+  font-family: "Mardamian", serif !important;
   font-weight: 450;
   font-style: italic;                /* Դարձնում է տեքստը թեք */
   font-size: clamp(20px, 5vw, 34px); 
@@ -80,7 +80,7 @@
 
 /* Հիմնական տեքստի սթայլը՝ ԹԵՔ */
 .weeding2 .maintext {
-  font-family: 'Noto Serif Armenian', serif;
+  font-family: "Mardamian", serif !important;
   font-weight: 300;                  
   font-style: italic;                /* Դարձնում է տեքստը թեք */
   font-size: 15.5px;
@@ -168,7 +168,7 @@
    letter-spacing: 	2px;
 }
 .text2 {
-    font-family: "Noto Serif Armenian", serif;
+   font-family: "Mardamian", serif !important;
     font-weight: 400;
     font-style: italic; 
     color: #3d2e20; 
@@ -226,7 +226,7 @@ align-items: center;
         url(event.jpg); /* Ваше фото остается основой */
 }
 .schedule{
-    font-family: "Noto Serif Armenian", serif;
+   font-family: "Mardamian", serif !important;
     font-weight: 400;
     color: #2c2520; /* Բացարձակ սևի փոխարեն մուգ շոկոլադագույնը ավելի թանկ է դիտվում */
     font-size: 26px; /* Փոքրացրել ենք */
@@ -243,17 +243,18 @@ align-items: center;
 }
 .harsijam
 {
-	  font-family: "Cinzel Decorative", serif;
+	font-family: "Mardamian", serif !important;
   font-weight: 400;
   font-style: normal;
 	font-size: 26px;
 	text-align: center;
-	margin-top: 25px;
+	margin-top: 6px;
 
 }
 .tun {
     text-decoration: none;
     display: inline-block;
+    margin-top: 20px;
 }
 
 .harsitun1 {
@@ -345,7 +346,7 @@ align-items: center;
 }
 .weeding5 {
   width: 430px;
-    height: 500px;
+    height: 540px;
     border: 0px solid black;
    background-size: 100% 100%;
    display: flex	;
@@ -372,16 +373,32 @@ align-items: center;
 	text-align: center;
 	margin-top: 25px;
 }
+.psakadrutyun11{
+      font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 70px;
+}
 .psakadrutyun2{
-	  font-family: "Cinzel Decorative", serif;
+	 font-family: "Mardamian", serif !important;
   font-weight: 400;
   font-style: normal;
 	font-size: 25px;
 	text-align: center;
-	margin-top: 5px;
+	margin-top: 15px;
+}
+.psakadrutyun22{
+     font-family: "Mardamian", serif !important;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 25px;
+    text-align: center;
+    margin-top:10px;
 }
 .psakadrutyun3{
-	  font-family: "Cinzel Decorative", serif;
+	font-family: "Mardamian", serif !important;
   font-weight: 400;
   font-style: normal;
 	font-size:20px;
@@ -398,7 +415,7 @@ margin-top: 20px;
   font-style: normal;
   font-size: 25px;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 20px;
   
   /* Ժամանակը դարձրինք 6 վայրկյան, իսկ 'animation-duration: 2s'-ը հանեցինք */
   animation: fadeInOutBlur 6s ease-in-out infinite alternate;
@@ -466,7 +483,7 @@ margin-top: 20px;
   font-family: 'Noto Serif Armenian', serif;
   font-weight: 400;                  /* 300-ից դարձրինք 400՝ ավելի հստակության համար */
   font-style: italic;                
-  font-size: 20px;
+  font-size: 19px;
   text-align: center;
   margin-top: 25px;
   color: white;
