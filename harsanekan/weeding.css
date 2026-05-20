@@ -23,7 +23,7 @@
   font-style: normal;
   color: white;
   font-size: 65px;
-  margin-left: 245px;
+  margin-left: 225px;
   margin-top: 300px;
 }
 .and{
@@ -32,7 +32,7 @@
   font-style: normal;
   color: white;
   font-size: 60px;
-   margin-left:190px;
+   margin-left:170px;
    margin-top: -30px;
 }
 .Manename{
@@ -41,7 +41,7 @@
   font-style: normal;
   color: white;
   font-size: 67px;
-  margin-left: 65px;
+  margin-left: 45px;
   margin-top: -35px;
 }
 
@@ -167,18 +167,41 @@
    margin-top: 15px;
    letter-spacing: 	2px;
 }
-.text2{
-    font-family: "Cinzel Decorative", serif;
-  font-weight: 500;
-  font-style: normal;
-  font-style: italic; 
-  color: white;
-  font-size: 18px;
-  text-align: 	center	;
-   margin-top: 55px;
-   letter-spacing: 	0.4px;
+.text2 {
+    font-family: "Noto Serif Armenian", serif;
+    font-weight: 400;
+    font-style: italic; 
+    color: #3d2e20; 
+    font-size: 16px; 
+    text-align: center;
+    margin-top: 55px;
+    letter-spacing: 1px; 
+    
+    animation: veilFade 5s infinite ease-out;
 }
 
+@keyframes veilFade {
+    0% {
+        opacity: 0;
+        transform: scale(0.93); /* Սկզբում փոքր է ու հեռվում */
+        filter: blur(4px);      /* Թեթև նուրբ խամրածություն */
+    }
+    15% {
+        opacity: 1;
+        transform: scale(1);    /* Գալիս է առաջ, բացվում ու հստակվում է */
+        filter: blur(0);
+    }
+    85% {
+        opacity: 1;
+        transform: scale(1.02); /* Էկրանին մնալու ընթացքում շատ դանդաղ մեծանում է */
+        filter: blur(0);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.05); /* Նրբորեն հալվում է օդում */
+        filter: blur(2px);
+    }
+}
 
 .weeding4 {
   width: 430px;
@@ -203,19 +226,18 @@ align-items: center;
         url(event.jpg); /* Ваше фото остается основой */
 }
 .schedule{
-	    font-family: "Cinzel Decorative", serif;
-  font-weight: 500;
-  font-style: normal;
-  font-style: italic; 
-  color: black	;
-  font-size:30px;
-  text-align: 	center	;
-   letter-spacing: 	0.5px;
-   margin-top: 	45px;
+    font-family: "Noto Serif Armenian", serif;
+    font-weight: 400;
+    color: #2c2520; /* Բացարձակ սևի փոխարեն մուգ շոկոլադագույնը ավելի թանկ է դիտվում */
+    font-size: 26px; /* Փոքրացրել ենք */
+    text-align: center;
+    letter-spacing: 2px; /* Տառերի արանքը մեծացրել ենք Premium էֆեկտի համար */
+    margin-top: 45px;
+    text-transform: uppercase; /* Բոլորը մեծատառ */
 }
 .harsnkar{
-	width: 100px;
-	height: 100px;
+	width: 120px;
+	height: 120px;
 	margin-top: 30px;
 
 }
@@ -227,15 +249,68 @@ align-items: center;
 	font-size: 26px;
 	text-align: center;
 	margin-top: 25px;
+
 }
-.tun{
-text-decoration: none;
+.tun {
+    text-decoration: none;
+    display: inline-block;
 }
-.harsitun{
-	width: 320px;
-	height: 220px;
-	border-radius: 8px;
+
+.harsitun1 {
+    width: 120px;
+    height:120px;
+    border-radius: 4px; /* Շատ թեթև մինիմալիստական կլորացում, ինչպես ձեր օրինակում է */
+    object-fit: cover;
+    border: none; /* Լրիվ հանում ենք բոլոր գծերն ու շրջանակները */
+    
+    /* ՕՐԻՆԱԿԻ ՊՐԵՄԻՈՒՄ ԷՖԵԿՏԸ. Մեծ, տարածված ու շատ փափուկ ստվեր */
+    /* Այն նկարի տակ ստեղծում է թավշյա խորություն՝ առանց կոպիտ գծերի */
+    box-shadow: 0 15px 35px rgba(54, 40, 26, 0.18); 
+    
+    /* Թեթև թափանցիկություն, որ նկարի վառ գույները բնական միաձուլվեն կրեմագույն ֆոնին */
+    opacity: 0.96; 
+    
+    transform: scale(1.0);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1); /* Շատ սլացիկ, կինեմատոգրաֆիկ անցում */
 }
+
+/* ԷՖԵԿՏԸ, ԵՐԲ ՄԿՆԻԿԸ ԴՆՈՒՄ ԵՆՔ ՎՐԱՆ (HOVER) */
+.harsitun1:hover { 
+    transform: translateY(-5px); /* Սկեյլի փոխարեն նկարը նրբորեն «բարձրանում է» էկրանից դեպի հյուրը */
+    opacity: 1; /* Գույները դառնում են 100% հստակ */
+    
+    /* Ստվերն ավելի է մեծանում ու փափկում՝ ուժեղացնելով 3D էֆեկտը */
+    box-shadow: 0 25px 50px rgba(54, 40, 26, 0.28); 
+}
+
+.harsitun {
+    width: 320px;
+    height: 220px;
+    border-radius: 4px; /* Շատ թեթև մինիմալիստական կլորացում, ինչպես ձեր օրինակում է */
+    object-fit: cover;
+    border: none; /* Լրիվ հանում ենք բոլոր գծերն ու շրջանակները */
+    
+    /* ՕՐԻՆԱԿԻ ՊՐԵՄԻՈՒՄ ԷՖԵԿՏԸ. Մեծ, տարածված ու շատ փափուկ ստվեր */
+    /* Այն նկարի տակ ստեղծում է թավշյա խորություն՝ առանց կոպիտ գծերի */
+    box-shadow: 0 15px 35px rgba(54, 40, 26, 0.18); 
+    
+    /* Թեթև թափանցիկություն, որ նկարի վառ գույները բնական միաձուլվեն կրեմագույն ֆոնին */
+    opacity: 0.96; 
+    
+    transform: scale(1.0);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1); /* Շատ սլացիկ, կինեմատոգրաֆիկ անցում */
+}
+
+/* ԷՖԵԿՏԸ, ԵՐԲ ՄԿՆԻԿԸ ԴՆՈՒՄ ԵՆՔ ՎՐԱՆ (HOVER) */
+.harsitun:hover { 
+    transform: translateY(-5px); /* Սկեյլի փոխարեն նկարը նրբորեն «բարձրանում է» էկրանից դեպի հյուրը */
+    opacity: 1; /* Գույները դառնում են 100% հստակ */
+    
+    /* Ստվերն ավելի է մեծանում ու փափկում՝ ուժեղացնելով 3D էֆեկտը */
+    box-shadow: 0 25px 50px rgba(54, 40, 26, 0.28); 
+}
+
+
 .psakadrutyun{
 	  font-family: "Cinzel Decorative", serif;
   font-weight: 400;
@@ -247,7 +322,7 @@ text-decoration: none;
 .weeding5 {
   width: 100%;            /* Հեռախոսի վրա ավտոմատ կընդունի էկրանի լայնությունը */
   max-width: 430px;       /* Բայց նոթբուքի վրա չի թողնի 430px-ից մեծանա */
-  min-height: 700px;      /* Ֆիքսված height-ի փոխարեն դնում ենք min-height */
+  min-height: 500px;      /* Ֆիքսված height-ի փոխարեն դնում ենք min-height */
   height: auto;           /* Թույլ է տալիս, որ բլոկը ճկվի ու երկարի ըստ տեքստի */
   margin: 0 auto;         /* Կենտրոնացնում է բլոկը էկրանի մեջտեղում */
   border: 0px solid black;
@@ -270,7 +345,7 @@ text-decoration: none;
 }
 .weeding5 {
   width: 430px;
-    height: 700px;
+    height: 500px;
     border: 0px solid black;
    background-size: 100% 100%;
    display: flex	;
